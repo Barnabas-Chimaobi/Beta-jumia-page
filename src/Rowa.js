@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-// import {Link, Redirect, BrowserRouter} from "react-router-dom"
+import {Link, Redirect, BrowserRouter} from "react-router-dom"
 import logo from './images/row1.png';
 import logo2 from "./images/dealafter.png";
 import logo3 from "./images/deal1.png";
@@ -22,13 +22,13 @@ import logo19 from "./images/rainydaysafter.png"
 import logo20 from "./images/rainaft.png"
 import logo21 from "./images/rainaft2.png"
 import "./Rowa.css"
-
+import Rowaext from "./Rowaext"
 
 class Rowa extends Component {
     render(){
         return (
             <div>
-            <div>
+            <div className="rowc">
               <img src={logo} alt = "images"/> 
             </div> 
             <div className = "rowb">
@@ -39,21 +39,24 @@ class Rowa extends Component {
             <div className = "rowc">
              <img src ={logo2} alt = "images" /><img src ={logo11} alt = "images" />
             </div>
-            <div>
+            <div className="rowc">
                 <img src ={logo3} alt = "images"/><img src ={logo4} alt = "images"/><img src ={logo5} alt = "images"/>
                 <img src ={logo6} alt = "images"/><img src ={logo7} alt = "images"/><img src ={logo8} alt = "images"/>
             </div>
+            <div className="rowc">
              <img src ={logo9} alt = "images"/><img src ={logo10} alt = "images"/>
-             <div>
+             <Link to="/fanext">click</Link>      
+             </div>
+             <div className="rowc">
              <img src ={logo12} alt = "images"/>
              </div>
-             <div>
+             <div className="rowc">
               <img src ={logo13} alt = "images" /><img src ={logo14} alt = "images" />
              </div>
-             <div>
+             <div className="rowc">
              <img src ={logo15} alt = "images" />
              </div>
-             <div>
+             <div className="rowc">
              <img src ={logo16} alt = "images" /><img src ={logo17} alt = "images" />
              </div>
              <div>
