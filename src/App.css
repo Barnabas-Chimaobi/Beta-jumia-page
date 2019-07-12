@@ -6,12 +6,6 @@
   position: relative;
   height: 450px;
   display: flex;
-  justify-content: space-around;
-  
-}
-
-.Footerem h7{
-  margin-top: 9px;
   justify-content: space-between;
 }
 
