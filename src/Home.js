@@ -16,12 +16,14 @@ import Row12 from "./Row12";
 import Row13 from "./Row13";
 import Footerem from "./Footerem";
 import Onfooterme from './Onfooterme'
+import Tophead from "./Tophead";
 
 
 class Home extends Component {
   render() {
     return (
       <div>
+        <Tophead/>
         <Headerbc />
         <Subheaderbc />
         <Row1 />

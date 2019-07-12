@@ -1,4 +1,6 @@
+
 import React, { Component } from "react";
+import Tophead from './Tophead'
 import Headerbc from "./Headerbc";
 import Login from "./slogin";
 import Register from "./Register";
@@ -21,6 +23,7 @@ import Exthood from "./Exthood"
 class App extends Component {
   render() {
     return (
+    
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
