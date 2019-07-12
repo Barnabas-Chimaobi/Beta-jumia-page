@@ -7,9 +7,10 @@ height: 45px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   font-size: 20px;
-}
-  width: 87%;
+
+  width: 86%;
   margin-left: 7%;
+}
 
 .rowc{
   text-align: center;
@@ -25,6 +26,8 @@ padding: 8px;
 .rowb a{
     float:right;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 .img3 {
   float:right;

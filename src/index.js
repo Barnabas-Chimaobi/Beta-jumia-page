@@ -2,9 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import Rowa from "./Rowa";
 import Home from "./Home";
-import "./Rowa.css";
+
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(<App />, document.getElementById("root"));
