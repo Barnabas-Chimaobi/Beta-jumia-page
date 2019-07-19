@@ -1,6 +1,6 @@
 .rowb {
-height: 40px;
-    color: white;
+  height: 40px;
+  color: white;
   background-color: red;
   width: 92%;
   margin-left: 4%;
@@ -9,12 +9,12 @@ height: 40px;
 
 }
 .rowb a{
-    float:right;
+  float:right;
 }
 .img3 {
   float:right;
-height: 45px;
-    color: white;
+  height: 45px;
+  color: white;
   background-color: red;
   width: 85%;
   margin-left: 7%;
@@ -33,12 +33,6 @@ height: 45px;
 padding: 8px;
 }
 
-.rowc{
-  text-align: center;
-}
-.rowc{
-  text-align: center;
-}
 .rowb a{
     float:right;
     cursor: pointer;

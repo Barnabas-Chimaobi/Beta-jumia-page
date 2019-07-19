@@ -5,7 +5,7 @@ class Extfridges extends Component {
  render (){
      return (
          <div>
-            <img src = {logofridge} alt = "fridge"/>
+            <img src = {logofridge} alt = "fridges"/>
          </div>
      )
  }   

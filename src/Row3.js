@@ -13,7 +13,10 @@ class row3 extends Component {
             <Link to = "/orders" >
             <img src ={logo2} alt = "images" />
             </Link>
+            <Link to="/stable">
             <img src ={logo11} alt = "images" />
+            </Link>
+            
             </div>
 
         )

@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
-import logofridge from './images/fridges.png'
+import logotv from './images/Etv.png'
 
-class Extfridges extends Component {
+class Exttv extends Component {
  render (){
      return (
          <div>
-            <img src = {logofridge} alt = "fridge"/>
+            <img src = {logotv} alt = "tv"/>
          </div>
      )
  }   
 }
 
-export default Extfridges;
+export default Exttv;

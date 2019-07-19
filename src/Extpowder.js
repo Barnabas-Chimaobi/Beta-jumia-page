@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
-import logofridge from './images/fridges.png'
+import logopow from './images/Epowder.png'
 
-class Extfridges extends Component {
+class Extpowder extends Component {
  render (){
      return (
          <div>
-            <img src = {logofridge} alt = "fridge"/>
+            <img src = {logopow} alt = "powder"/>
          </div>
      )
  }   
 }
 
-export default Extfridges;
+export default Extpowder;

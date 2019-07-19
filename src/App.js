@@ -16,6 +16,17 @@ import Home from "./Home";
 import Extorders from "./Extorders";
 import Extphones from "./Extphones";
 import Exthood from "./Exthood"
+import Extdeo from "./Extdeo"
+import Extsoap from "./Extsoap"
+import Extpowder from "./Extpowder"
+import Exttv from "./Exttv"
+import Extket from "./Extket"
+import Extprint from "./Extprint"
+import Extdrum from "./Extdrum"
+import Extstable from "./Extstable"
+import Extbae from "./Extbae"
+import Extwears from "./Extwears"
+import Extbags from "./Extbags"
  
 
 
@@ -36,7 +47,17 @@ class App extends Component {
           <Route path="/orders" component={Extorders} />
           <Route path="/Extphones" component={Extphones} />
           <Route path="/hoodie" component={Exthood} />
-
+          <Route path="/deo" component={Extdeo} />
+          <Route path="/soap" component={Extsoap} />
+          <Route path="/powd" component={Extpowder} />
+          <Route path="/teli" component={Exttv} />
+          <Route path="/kets" component={Extket} />
+          <Route path="/Extprint" component={Extprint} />
+          <Route path="/drum" component={Extdrum}/>
+          <Route path="/stable" component={Extstable} />
+          <Route path="/bae" component={Extbae} />
+          <Route path="/wears" component={Extwears} />
+          <Route path="/bags" component={Extbags} />
         </Switch>
       </BrowserRouter>
     );

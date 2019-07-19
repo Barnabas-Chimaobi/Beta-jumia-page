@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import logo18 from "./images/rainydays.png"
+import {Link} from "react-router-dom"
 
 
 class Row10 extends Component {
@@ -7,7 +8,9 @@ class Row10 extends Component {
         return (
              
              <div className="rowc">
+             <Link to="/kets">
              <img src ={logo18} alt = "images" />
+             </Link>
              </div>
         )
     }
