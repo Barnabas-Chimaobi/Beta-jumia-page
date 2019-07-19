@@ -14,9 +14,11 @@ import Row10 from "./Row10";
 import Row11 from "./Row11";
 import Row12 from "./Row12";
 import Row13 from "./Row13";
+import Subheaderpme from "./Subheaderpme";
 import Footerem from "./Footerem";
 import Onfooterme from './Onfooterme'
 import Tophead from "./Tophead";
+import Navigationbc from './Navigationbc'
 
 
 class Home extends Component {
@@ -26,6 +28,7 @@ class Home extends Component {
         <Tophead/>
         <Headerbc />
         <Subheaderbc />
+        <Navigationbc/>
         <Row1 />
         <Row2 />
         <Row3 />
@@ -39,6 +42,7 @@ class Home extends Component {
         <Row11 />
         <Row12 />
         <Row13 />
+        <Subheaderpme />
         <Onfooterme />
         <Footerem />
       </div>

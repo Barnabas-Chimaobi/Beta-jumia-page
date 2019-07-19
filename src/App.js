@@ -8,6 +8,7 @@ import Profile from "./Profile";
 import Extfan from "./Extfan";
 import Extfridges from "./Extfridges";
 import Extseall from "./images/Extseall.png"
+import Futmeter from "./Futmeter";
 import "./App.css";
 import Footerem from "./Footerem";
 import Subheaderbc from "./Subheaderbc";
@@ -58,6 +59,7 @@ class App extends Component {
           <Route path="/bae" component={Extbae} />
           <Route path="/wears" component={Extwears} />
           <Route path="/bags" component={Extbags} />
+          <Route path="/Futmeter" component={Futmeter} />
         </Switch>
       </BrowserRouter>
     );

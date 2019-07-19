@@ -8,7 +8,7 @@ import dealimage from "./images/dealsimage.jpeg";
 import houseimage from "./images/houseimage.png";
 import oneimage from "./images/oneimage.png";
 import partyimage from "./images/partyimage.png";
-import Subheaderbc from "./Subheaderbc";
+
 
 class Signup extends Component {
   render() {
@@ -21,7 +21,7 @@ class Signup extends Component {
             </a>
           </div>
           <div className="jumia3">
-            <div classname="lists" />
+            <div className="lists" />
             <ul>
               <li>
                 <img src={logo3} width="60px" height="13vh" />

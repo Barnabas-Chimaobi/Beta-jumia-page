@@ -29,28 +29,25 @@ import pic24 from './images/fr.png';
 
 
 
-class Footerem extends Component {
+class Footerloginem extends Component {
   render() {
     return (
       <div className="Footerem">
         <div>
 <div>
-  <br/>
+  ffffffff
           <h7>LET US HELP YOU</h7>
           <li><a href="#">Help Center</a></li>
-          <li><a>Warranty</a></li>
-          <li><a>Service Centers</a></li>
           <li><a>Contact Us</a></li>
           <li><a>How to Shop on Jumia</a></li>
-          <li><a>Shipping & Delivery</a></li>
-          <li><a>Return Policy</a></li>
+          <li><a>Delivery options and timelines</a></li>
           <li><a>Corporate & Bulk Purchase</a></li>
           <li><a>Jumia Mobile Apps</a></li>
           <li><a>Jumia Bot (Beta)</a></li>
           
         </div>
         <div>
-            <br/>
+        
           <h7>MAKE MONEY WITH US</h7>
           <li><a>Sell on Jumia</a></li>
           <li><a>Become an Affiliate Partner</a></li>
@@ -58,7 +55,7 @@ class Footerem extends Component {
           <li><a>Become a Jumia Vendor Service Provider</a></li>
           </div>
         </div>
-        <div><br/>
+        <div>
           <h7>GET TO KNOW US</h7>
             <li><a>Careers</a></li>
            <li><a>About Us</a></li>
@@ -101,4 +98,4 @@ class Footerem extends Component {
     );
   }
 }
-export default Footerem;
+export default Footerloginem;
