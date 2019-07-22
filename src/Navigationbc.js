@@ -10,6 +10,7 @@ class Navigationbc extends Component {
   render () {
     return (
       <div className='navcontainerbc'>
+        <hr></hr>
       <div className='subnav1'>
        <div className='no1bc'>
        <p className='mainno1bc'>FREE DELIVERY</p>
@@ -28,15 +29,15 @@ class Navigationbc extends Component {
        <div className='no2bc'>
        <p className='mainno2bc'>PHONES & TABLETS</p>
         <div className='subno2bc'>
-          <ul>
-            <li>Nokia</li>
-            <li>Tecno</li>
-            <li>Samsung</li>
-            <li>Gionee</li>
-            <li>Itel</li>
-            <li>Kingfly</li>
-            <li>Huawei</li>
-          </ul>
+          <div>
+            Nokia<br/>
+            Tecno<br/>
+            Samsung<br/>
+            Gionee<br/>
+            Itel<br/>
+            Kingfly<br/>
+            Huawei
+            </div>
         </div>
 
        </div>
@@ -181,9 +182,10 @@ class Navigationbc extends Component {
        </div>
 
        <div className='subnav2'>
-       <img src={photo1}></img>
-       {/* <img src={photo4}></img> */}
+       
+      
        </div>
+
        <div className='subnav3'>
        <div className='sub1'>
        <img src={photo2} height='20px'/>

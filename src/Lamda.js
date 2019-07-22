@@ -29,7 +29,9 @@ handleSubmit(e){
   e.preventDefault()
   
   if(this.state.email==="Admin" && this.state.password==="Admin1234"){
-  //  this.props.history.push('./')
+    // this.setState({loggedIn='true'})
+    // return this.props.history.push('./')
+  alert('welcome')
   }else{
     alert ("incorrect password")
   }

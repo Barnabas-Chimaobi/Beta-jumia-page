@@ -462,3 +462,7 @@ list-style: none;
   text-align: center;
   margin-top: 1rem;
 }
+.lop{
+  display:flex;
+  margin-left: 20%;
+}
