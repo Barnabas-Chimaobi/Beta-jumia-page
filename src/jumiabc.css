@@ -856,14 +856,146 @@ height: 20px;
   animation-direction: alternate
 }
 
-@keyframes chim {
+/* @keyframes chim {
 
   /* background: url(image/jumia anim2); */
-  from {
+  /* from {
     margin-left: 50%
   }
 
   to {
     margin-left: 0%
   }
+} */ 
+
+@media only screen and (max-width:600px) {
+  .box1 {
+    border: 1px solid black;
+    background: black;
+    height: -15px;
+    width: 6px;
+    margin-top: 1px;
+    margin-left: 3px;
+}
+
+.headerbc{
+  display: none
+}
+
+.imagebc img {
+  width: 30px;
+  height: 20px;
+  margin-bottom: -12px
+}
+
+.searchbc {
+  display: flex;
+  margin-left: -26px;
+}
+
+.searchbc input {
+  width: 49px;
+  height: 35px;
+  border-radius: 0%;
+  border: 1px solid white;
+  background: #F5F5F5;
+  padding-left: 10px;
+}
+.searchbc button {
+  height: 37px;
+  width: 66px;
+  border-radius: 0%;
+  border: 1px solid white;
+  background: orange;
+  color: white;
+}
+
+.help {
+  display: flex;
+  padding-left: 0px;
+  margin-top: -15px;
+  margin-left: 11px;
+}
+
+
+.help p {
+  padding-left: 20px;
+  margin-top: 21px;
+  font-size: 10px
+}
+
+.imgbc img{
+  width: 375px
+}
+.subnav2{
+  display: none
+}
+
+.navcontainerbc {
+  background: white;
+  margin-left: 2px;
+  margin-top: -10px;
+  margin-right: 2px;
+  display: flex;
+}
+
+.subnav1 {
+  border: 1px solid white;
+  width: 42%;
+}
+
+.oneng img {
+width: 53px;
+margin-top: 10px;
+
+/* align-content: center */
+}
+
+.rowc img{
+  display: none
+}
+
+.menubuttonbc p{
+  display: none
+}
+
+.para p {
+  line-height: 21px;
+  margin-bottom: 342px;
+}
+
+.graph p{
+  margin-bottom: 178px;
+}
+
+.routeme img{
+  width: 115px;
+height: 28px;
+}
+
+.routeme h8 {
+  color: rgb(131, 134, 134);
+  font-size: 14px;
+}
+
+.routeme input {
+  margin-left: -1%;
+}
+
+.Footerem{
+  bottom: -27px
+}
+
+.cart {
+  display: none
+}
+
+.menubuttonbc {
+  margin-left: 14px;
+}
+
+.basket{
+  width: 56px;
+  
+}
 }

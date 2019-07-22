@@ -14,7 +14,7 @@ class Subheaderpme extends Component {
             <div className="box1" />
             <div className="box1" />
           </div>
-          <img src={basket} alt="basket" height="38px" />
+          <img src={basket} alt="basket" height="38px"  className='basket'/>
         </div>
         <div className="searchbc">
           <input
@@ -41,7 +41,7 @@ class Subheaderpme extends Component {
           </div>
 
         </div>
-         <img src={cart} alt='cart'/>
+         <img src={cart} alt='cart' className='cart'/>
 
         </div>
        

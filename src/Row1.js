@@ -12,7 +12,7 @@ import {Link} from "react-router-dom";
 class Row1 extends Component {
     render (){
         return (
-            <div>
+            <div className='oneng'>
             <div className="rowc">  
             <img src={logof} alt = "images"/>          
             <Link to ="/Extphones">

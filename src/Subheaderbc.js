@@ -14,7 +14,10 @@ class Subheaderbc extends Component {
             <div className="box1" />
             <div className="box1" />
           </div>
-          <img src={basket} alt="basket" height="38px" />
+          <div className='imagebc'> 
+            <img src={basket} alt="basket" height="38px" />
+          </div>
+         
         </div>
         <div className="searchbc">
           <input

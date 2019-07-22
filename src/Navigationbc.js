@@ -182,7 +182,7 @@ class Navigationbc extends Component {
 
        <div className='subnav2'>
        <img src={photo1}></img>
-       <img src={photo4}></img>
+       {/* <img src={photo4}></img> */}
        </div>
        <div className='subnav3'>
        <div className='sub1'>
